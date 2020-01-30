@@ -1,0 +1,56 @@
+> Task :compileJava
+Note: Hibernate JPA 2 Static-Metamodel Generator 5.3.14.Final
+/Users/ericchua/Documents/Development/codes/jhipster/e-commerce-app/online-store/build/generated/sources/annotationProcessor/java/main/com/mycompany/store/domain/ProductCategory_.java:10: error: duplicate class: com.mycompany.store.domain.ProductCategory_
+public abstract class ProductCategory_ {
+                ^
+/Users/ericchua/Documents/Development/codes/jhipster/e-commerce-app/online-store/build/generated/sources/annotationProcessor/java/main/com/mycompany/store/domain/AbstractAuditingEntity_.java:10: error: duplicate class: com.mycompany.store.domain.AbstractAuditingEntity_
+public abstract class AbstractAuditingEntity_ {
+                ^
+/Users/ericchua/Documents/Development/codes/jhipster/e-commerce-app/online-store/build/generated/sources/annotationProcessor/java/main/com/mycompany/store/domain/Shipment_.java:10: error: duplicate class: com.mycompany.store.domain.Shipment_
+public abstract class Shipment_ {
+                ^
+/Users/ericchua/Documents/Development/codes/jhipster/e-commerce-app/online-store/build/generated/sources/annotationProcessor/java/main/com/mycompany/store/domain/User_.java:11: error: duplicate class: com.mycompany.store.domain.User_
+public abstract class User_ extends com.mycompany.store.domain.AbstractAuditingEntity_ {
+                ^
+/Users/ericchua/Documents/Development/codes/jhipster/e-commerce-app/online-store/build/generated/sources/annotationProcessor/java/main/com/mycompany/store/domain/Invoice_.java:14: error: duplicate class: com.mycompany.store.domain.Invoice_
+public abstract class Invoice_ {
+                ^
+/Users/ericchua/Documents/Development/codes/jhipster/e-commerce-app/online-store/build/generated/sources/annotationProcessor/java/main/com/mycompany/store/domain/Customer_.java:11: error: duplicate class: com.mycompany.store.domain.Customer_
+public abstract class Customer_ {
+                ^
+/Users/ericchua/Documents/Development/codes/jhipster/e-commerce-app/online-store/build/generated/sources/annotationProcessor/java/main/com/mycompany/store/domain/OrderItem_.java:11: error: duplicate class: com.mycompany.store.domain.OrderItem_
+public abstract class OrderItem_ {
+                ^
+/Users/ericchua/Documents/Development/codes/jhipster/e-commerce-app/online-store/build/generated/sources/annotationProcessor/java/main/com/mycompany/store/domain/PersistentAuditEvent_.java:11: error: duplicate class: com.mycompany.store.domain.PersistentAuditEvent_
+public abstract class PersistentAuditEvent_ {
+                ^
+/Users/ericchua/Documents/Development/codes/jhipster/e-commerce-app/online-store/build/generated/sources/annotationProcessor/java/main/com/mycompany/store/domain/Authority_.java:9: error: duplicate class: com.mycompany.store.domain.Authority_
+public abstract class Authority_ {
+                ^
+/Users/ericchua/Documents/Development/codes/jhipster/e-commerce-app/online-store/build/generated/sources/annotationProcessor/java/main/com/mycompany/store/domain/ProductOrder_.java:12: error: duplicate class: com.mycompany.store.domain.ProductOrder_
+public abstract class ProductOrder_ {
+                ^
+/Users/ericchua/Documents/Development/codes/jhipster/e-commerce-app/online-store/build/generated/sources/annotationProcessor/java/main/com/mycompany/store/domain/Product_.java:11: error: duplicate class: com.mycompany.store.domain.Product_
+public abstract class Product_ {
+                ^
+11 errors
+
+> Task :compileJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 1m 7s
+6 actionable tasks: 5 executed, 1 up-to-date
